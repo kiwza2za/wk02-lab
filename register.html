@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <fieldset>
+      <br>
+        <legend>ข้อมูลส่วนตัว</legend>
+        <label for="fname">ชื่อจริง:</label>
+        <input type="text" id="fname" name="firstname" required />
+        <label for="fname">นามสกุล:</label>
+        <input type="text" id="lname" name="lastname" required />
+       <br> 
+       <label for="email">อีเมล:</label>
+       <input type="email" id="email" name="email" required />
+       <label for="birthdate">วันเกิด:</label>
+       <input type="date" id="birthdate" name="birthdate" />
+      </br>
+      <fieldset>
+        <legend>เพศ</legend>
+        <input type="radio" id="male" name="gender" value="male" />
+    <label for="male">ชาย</label>
+    <input type="radio" id="female" name="gender" value="female" />
+    <label for="female">หญิง</label>
+     <input type="radio" id="another" name="gender" value="another" />
+    <label for="another">อื่นๆ</label>
+      </fieldset>
+      <label for="country">ประเทศ:</label>
+    <select id="country" name="country">
+    <option value="">เลือก...</option>
+    <option value="th">ไทย</option>
+    <option value="us">สหรัฐอเมริกา</option>
+    </select>
+    <br>
+    <label for="message">ข้อมูลเพิ่มเติม:</label>
+    </br>
+    <br>
+    <textarea id="message" name="message" rows="5" cols="35"></textarea>
+    </action></br>
+    <input type="checkbox" id="agree" name="agree" />
+    <label for="agree">ฉันยอมรับเงื่อนไขการใช้บริการ</label>
+      </fieldset>
+      <button type="submit">ส่งข้อมูล</button>
+      <button type="reset">ยกเลิก</button>
+    </form>
+  </body>
+</html>
